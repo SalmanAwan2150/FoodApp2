@@ -17,6 +17,8 @@ import 'package:food_app2/screens/product_overview/product_overview.dart';
 // );
 //-------------------------------------------------------
 // void main() async {
+//__________________________________________________________________----_____
+
 //   WidgetsFlutterBinding.ensureInitialized();
 //   await Firebase.initializeApp(
 //     options: FirebaseOptions(
