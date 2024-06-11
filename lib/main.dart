@@ -15,7 +15,7 @@ import 'package:food_app2/screens/product_overview/product_overview.dart';
 // final GoogleSignIn _googleSignIn = GoogleSignIn(
 //   clientId: 'YOUR_CLIENT_ID.apps.googleusercontent.com',
 // );
-
+//-------------------------------------------------------
 // void main() async {
 //   WidgetsFlutterBinding.ensureInitialized();
 //   await Firebase.initializeApp(
