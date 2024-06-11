@@ -19,8 +19,7 @@ import 'package:food_app2/screens/product_overview/product_overview.dart';
 // void main() async {
 //__________________________________________________________________----_____
 // this a test text---------------------------
-// 333333333333333333333333333333333333333333333
-// 222222222222222222222222222222222222222222222222
+// 1111111111111111111111111111111111111111111111111111111
 
 //   WidgetsFlutterBinding.ensureInitialized();
 //   await Firebase.initializeApp(
