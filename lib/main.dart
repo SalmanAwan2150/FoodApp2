@@ -5,6 +5,7 @@ import 'package:food_app2/auth/sign_in.dart';
 // import 'package:food_app2/auth/sign_in.dart';
 // import 'package:firebase_core/firebase_core.dart';
 // import 'package:firebase_auth/firebase_auth.dart';
+// ignore: unused_import
 import 'package:food_app2/screens/home/home_screen.dart';
 // ignore: unused_import
 import 'package:food_app2/screens/my_profile/my_profile.dart';

@@ -9,21 +9,10 @@ class MyProfile extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       // backgroundColor: primaryColor,
-      // backgroundColor: primaryColor,
-      // backgroundColor: primaryColor,
-      // backgroundColor: primaryColor,
-      // backgroundColor: primaryColor,
-      // backgroundColor: primaryColor,
-      // backgroundColor: primaryColor,
-
       appBar: AppBar(
         backgroundColor: primaryColor,
         elevation: 0.0,
         title: Text(
-          // backgroundColor: primaryColor,
-          // backgroundColor: primaryColor,
-          // backgroundColor: primaryColor,
-          // backgroundColor: primaryColor,
           "My Profile",
           style: TextStyle(
             fontSize: 24,
