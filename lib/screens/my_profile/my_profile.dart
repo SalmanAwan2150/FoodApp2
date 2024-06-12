@@ -6,6 +6,21 @@ class MyProfile extends StatelessWidget {
   const MyProfile({super.key});
 
   @override
+  Widget listTile({required IconData icon, required String title}) {
+    return Column(
+      children: [
+        Divider(
+          height: 1,
+        ),
+        ListTile(
+          leading: Icon(icon),
+          title: Text(title),
+          trailing: Icon(Icons.arrow_forward_ios),
+        ),
+      ],
+    );
+  }
+
   Widget build(BuildContext context) {
     return Scaffold(
       // backgroundColor: primaryColor,
@@ -89,6 +104,34 @@ class MyProfile extends StatelessWidget {
                           ),
                         ),
                       ],
+                    ),
+                    listTile(
+                      icon: Icons.shop_outlined,
+                      title: 'My Orders',
+                    ),
+                    listTile(
+                      icon: Icons.location_on_outlined,
+                      title: 'My Delivery Address',
+                    ),
+                    listTile(
+                      icon: Icons.person_outlined,
+                      title: 'Refer a Friend',
+                    ),
+                    listTile(
+                      icon: Icons.file_copy_outlined,
+                      title: 'Terms & Conditions',
+                    ),
+                    listTile(
+                      icon: Icons.policy_outlined,
+                      title: 'Privacy',
+                    ),
+                    listTile(
+                      icon: Icons.addchart_outlined,
+                      title: 'About',
+                    ),
+                    listTile(
+                      icon: Icons.exit_to_app_outlined,
+                      title: 'Log Out',
                     ),
                   ],
                 ),

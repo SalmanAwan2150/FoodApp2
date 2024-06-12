@@ -6,6 +6,7 @@ import "package:flutter/widgets.dart";
 import 'package:food_app2/screens/home/singal_product.dart';
 // ignore: unused_import
 import "package:food_app2/screens/product_overview/product_overview.dart";
+import "package:food_app2/screens/search/search.dart";
 import 'drawer_side.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -199,10 +200,23 @@ class HomeScreen extends StatelessWidget {
           CircleAvatar(
             radius: 20,
             backgroundColor: Color(0xffd4d181),
-            child: Icon(
-              Icons.search,
-              size: 25,
-              color: Colors.black,
+            child: IconButton(
+              onPressed: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (context) => Search(),
+                  ),
+                );
+
+                // Navigator.of(context).push(
+                //     MaterialPageRoute(
+                //       builder: (context) => ProductOverview()
+              },
+              icon: Icon(
+                Icons.search,
+                size: 25,
+                color: Colors.black,
+              ),
             ),
           ),
           Padding(

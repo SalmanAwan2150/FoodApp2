@@ -11,6 +11,7 @@ import 'package:food_app2/screens/home/home_screen.dart';
 import 'package:food_app2/screens/my_profile/my_profile.dart';
 // ignore: unused_import
 import 'package:food_app2/screens/product_overview/product_overview.dart';
+import 'package:food_app2/screens/search/search.dart';
 // import 'package:google_sign_in/google_sign_in.dart';
 
 // final GoogleSignIn _googleSignIn = GoogleSignIn(
@@ -42,7 +43,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: MyProfile(),
+      home: HomeScreen(),
     );
   }
 }
