@@ -15,10 +15,15 @@ class MyProfile extends StatelessWidget {
       // backgroundColor: primaryColor,
       // backgroundColor: primaryColor,
       // backgroundColor: primaryColor,
+
       appBar: AppBar(
         backgroundColor: primaryColor,
         elevation: 0.0,
         title: Text(
+          // backgroundColor: primaryColor,
+          // backgroundColor: primaryColor,
+          // backgroundColor: primaryColor,
+          // backgroundColor: primaryColor,
           "My Profile",
           style: TextStyle(
             fontSize: 24,
