@@ -9,6 +9,12 @@ class MyProfile extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       // backgroundColor: primaryColor,
+      // backgroundColor: primaryColor,
+      // backgroundColor: primaryColor,
+      // backgroundColor: primaryColor,
+      // backgroundColor: primaryColor,
+      // backgroundColor: primaryColor,
+      // backgroundColor: primaryColor,
       appBar: AppBar(
         backgroundColor: primaryColor,
         elevation: 0.0,
@@ -27,7 +33,7 @@ class MyProfile extends StatelessWidget {
             children: [
               Container(
                 color: primaryColor,
-                height: 110,
+                height: 70,
               ),
               Container(
                 // color: Colors.blue,
